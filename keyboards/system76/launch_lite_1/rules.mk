@@ -25,3 +25,4 @@ LTO_ENABLE = yes            # Link-time optimization for smaller binary
 # Add System76 EC command interface as well as I2C and USB mux drivers
 SRC += system76_ec.c
 QUANTUM_LIB_SRC += i2c_master.c
+KEY_OVERRIDE_ENABLE = yes   # 20221221_キーオーバーライドのため追加
